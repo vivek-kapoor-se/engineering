@@ -3,39 +3,35 @@
   font-family: monospace;
   font-weight: bold;
   position: relative;
-  width: 90%;
-  height: 90%;
   display: grid;
 }
 .app-header {
   color: black;
   background-color: burlywood;
-  width: 50%;
+  width: 90%;
   height: auto;
   border-radius: 10px;
   padding: auto;
   margin: auto;
   margin-top: 5%;
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
 }
 p {
   text-align: center;
 }
 .app-upload {
-  width: fit-content;
   margin: auto;
   padding: 1ex;
-  z-index: auto;
   border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
+  border-style: dotted;
+  border-width: 3px;
   border-color: silver;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .app-content  {
   margin: auto;
-  width: 50%;
+  width: 90%;
   font-size: large;
   padding: 1ex;
   border-radius: 5px;
