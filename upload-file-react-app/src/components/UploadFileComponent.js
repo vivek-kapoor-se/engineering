@@ -79,7 +79,7 @@ export default class UploadFileComponent extends Component  {
         } = this.state;
     
         return (
-          <div>
+          <div className="upload-component">
             {currentFile && (
               <div className="progress">
                 <div
@@ -96,7 +96,7 @@ export default class UploadFileComponent extends Component  {
             )}
     
             <label className="btn btn-default">
-              <input type="file" onChange={this.selectFile} />
+              <input type="file" onChange={this.selectFile}/>
             </label>
     
             <button
