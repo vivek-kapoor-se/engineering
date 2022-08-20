@@ -9,7 +9,7 @@ function App() {
           <p>Upload Forms</p>
         </div>
         <div className="app-content">
-          <p>Upload all forms in form in image or PDF format<br></br>Unclear forms will be rejected</p>
+          <p>Upload all forms in image or PDF format<br></br>Unclear forms will be rejected</p>
         </div>
         <div className='app-upload'>
           <UploadFileComponent />
