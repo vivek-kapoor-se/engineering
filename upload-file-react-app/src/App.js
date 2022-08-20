@@ -6,10 +6,10 @@ function App() {
     return (
       <div className="app-container">
         <div className="app-header">
-          <p>Upload Service</p>
+          <p>Upload Forms</p>
         </div>
         <div className="app-content">
-          <p>This upload service can be used to upload any #files but this service need to call any existing backend service to store data</p>
+          <p>Upload all forms in form in image or PDF format<br></br>Unclear forms will be rejected</p>
         </div>
         <div className='app-upload'>
           <UploadFileComponent />
